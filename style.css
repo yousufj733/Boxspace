@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    background: #181719;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Crimson Pro', serif;
+   font-family: 'Lora', serif;
+
+
+}
+section 
+{
+    padding-top: 15rem;
+}
+.container
+{
+    width: 1320px;
+    margin: 0 auto;
+}
+img 
+{
+    width: 100%;
+}
+
+/* Hero  */
+.hero 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2.5rem;
+    
+}
+
+.hero__left 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   
+}
+.hero__left h1
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+    color: #FFF;    
+}
+.hero__left p 
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+margin: 10px 0;
+width: 410px;
+}
+
+.hero__left a{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.inner__img
+
+{
+    position: relative;
+}
+.inner__box 
+{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    background: #181719;
+    padding: 30px 120px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* width: 410px; */
+}
+.inner__clients  img 
+{
+    width: 46px;
+    height: 41px;
+    border-radius: 100%;
+}
+
+.inner__clients
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.clients__details h4
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+.clients__details p 
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #828282;
+}
+
+.inner__box h3
+{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+width: 287px;
+color: #FFFFFF;
+
+}
+
+/* Footer CSS  */
+
+footer
+{
+    text-align: center;
+    padding-top:300px;
+}
+
+
+footer p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+
+}
+
+footer strong 
+{
+    text-decoration: underline;
+}
