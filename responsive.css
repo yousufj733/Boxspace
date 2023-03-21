@@ -1,0 +1,80 @@
+
+/* ##########################   Media Queries  (Mobile)
+############################*/
+@media  screen and (max-width:600px)
+
+{
+
+.container
+{
+width: 97%;
+}
+
+
+.hero 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 2.5rem;
+}
+.hero__left
+{
+    padding: 0 10px;
+}
+.hero__left h1
+{
+    font-size: 36px;
+line-height: 46px;
+}
+
+.hero__left p 
+{
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+width: 250px;
+}
+.inner__box 
+{
+  
+    top: 90%;
+    left: 10%;
+    padding: 20px 30px;
+    gap: 1rem;
+   
+}
+.inner__clients  img 
+{
+    width: 62px;
+    height: 52px;
+    
+}
+
+
+.clients__details h4
+{
+font-size: 12px;
+}
+.clients__details p 
+{
+font-size: 10px;
+}
+
+.inner__box h3
+{
+font-size: 18px;
+}
+
+
+
+footer p{
+
+margin-bottom:15px;
+
+}
+
+
+
+
+}
